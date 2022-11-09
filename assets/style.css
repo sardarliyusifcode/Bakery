@@ -1,0 +1,111 @@
+/* HEADER */
+.header{
+    height: 70px;
+}
+.header i{
+    font-size: 1.5rem;
+    color: #535353;
+}
+
+/* INTRO */
+.intro{
+    background-image: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/b1c0b0a0121d5008a238b9f2/Untitled-1.jpg');
+    background-position: 50% 90.35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.intro .intro-content h3{
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+.intro .intro-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 50px 0;    
+}
+.intro .intro-content a{
+    margin: 25px auto;
+}
+/* WHAT WE DO */
+.what-we-do{
+    padding: 2rem 0;
+}
+.what-we-do-name{
+    font-size: 1.5rem;
+}
+.what-we-do-header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.what-we-do .products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.what-we-do .products .product{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.what-we-do .products .product .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.what-we-do .products .product .icon img{
+    width: 60%;
+    height: auto;
+}
+.what-we-do .products .product .product-name{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+/* ABOUT COMPANY */
+.about-company{
+    height: 45vh;
+    width: 100%;
+    padding: 2rem 0;
+    color: #fff;
+}
+.about-company-divider{
+    display: flex;
+}
+.about-company-divider .about-side{
+    width: 50%;
+}
+.about-company-divider .bakery-img{
+    width: 50%;
+}
+.about-company-divider .bakery-img img{
+    width: 50%;
+    height: auto;
+}
+/* OUR GALERY */
+.gelery-img{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.gelery-img img{
+    width: 50%;
+    margin-right: 1.5rem;
+}
+/* FOOTER */
+.footer{
+    padding: 5rem 0;
+    color: #fff;
+}
+.footer a{
+    margin-top: 3rem;
+    color: #fff;
+}

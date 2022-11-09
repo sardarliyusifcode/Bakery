@@ -1,0 +1,50 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.bg-yellow{
+    background-color: #f1c50e;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.read-more{
+    padding: 1rem;
+    width: 150px;
+    border-radius: 25px;
+}
+.read-more:hover{
+    background-color: #d9b10d;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-s{
+    width: 980px;
+    margin: 0 auto;
+}
+.container-xs{
+    width: 780px;
+    margin: 0 auto;
+}
+.image-span{
+    margin: 1rem 0;
+}
+.image-span a{
+    color: #fff;
+}
+.image-span a:hover{
+    opacity: 0.9;
+    
+}
+/* WELCOME */
+.welcome-text{
+    line-height: 2;
+    letter-spacing: 2;
+}
